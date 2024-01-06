@@ -1,3 +1,7 @@
+#
+# This script needs transaction report from fidelity
+# It will add 3 columns to the report. closing price, profit/loss, profit/loss %
+# Report can be of last 7 days, 30days or x days
 import pandas as pd
 import requests
 import time
